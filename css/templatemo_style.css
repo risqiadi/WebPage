@@ -7,8 +7,11 @@ body{
 	padding: 0;
 	color: #555;
 	font-size: 12px;
+	line-height: 1.6em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: #03C;
+	background-color: #c7c8c1;
+	background-image:  url(../images/templatemo_background.png);
+	background-repeat: repeat
 }
 
 a, a:link, a:visited { 
@@ -102,7 +105,7 @@ cite span {
 
 a.header { 
 	display: block; 
-	font-weight: 70; 
+	font-weight: 700; 
 }
 
 .half { 
@@ -190,11 +193,21 @@ a.header {
 }
 
 #site_title { 
+	display: block; 
 	width: 300px; 
 	margin: 0 auto; 
-	font-size : 25px;
 }
 
+#site_title a { 
+	display: block; 
+	width: 300px; 
+	height: 22px; 
+	text-align: center; 
+	padding-top: 45px; 
+	background: url(../images/templatemo_logo.png) no-repeat top center; 
+	color: #333; 
+	letter-spacing: 4px; 
+}
 
 #templatemo_header #intro_text { 
 	margin-top: 20px; 
@@ -208,6 +221,47 @@ a.header {
 	height: 500px;
 }
 
+.section {
+	position:relative;
+	float:left;
+	padding: 20px;
+	width: 780px;
+	height: 460px;
+	margin-right: 20px;
+}
+
+.section a.home_btn { 
+	position: absolute; 
+	top: 20px; 
+	right: 20px; 
+	width: 88px; 
+	height: 32px; 
+	display: block; 
+	background: url(../images/templatemo_home_btn.png); 
+	text-indent: -10000px; 
+}
+
+.section  a.page_nav_btn { 
+	position: absolute; 
+	display: block; 
+	width: 27px; 
+	height: 27px; 
+	line-height: 27px; 
+	font-weight: 700; 
+	bottom: 20px; 
+}
+
+.section  a.previous { 
+	left: 20px; 
+	background: url(../images/previous.png) left center no-repeat; 
+	padding-left: 40px; 
+}
+
+.section  a.next { 
+	right: 40px; 
+	background: url(../images/templatemo_next.png) right center no-repeat; 
+	padding-right: 40px; 
+}
 
 #templatemo_menu {
 	margin: 140px 0 0;
@@ -246,8 +300,28 @@ a.header {
 	text-decoration: none; 
 }
 
+#templatemo_menu li a.about { 
+	background-image: url(../images/icon_about.png); 
+}
+
+#templatemo_menu li a.services { 
+	background-image: url(../images/icon_services.png); 
+}
+
+#templatemo_menu li a.portfolio { 
+	background-image: url(../images/icon_portfolio.png); 
+}
+
+#templatemo_menu li a.testimonial { 
+	background-image: url(../images/icon_testimonial.png); 
+}
+
+#templatemo_menu li a.contact { 
+	background-image: url(../images/icon_contact.png); 
+}
+
 #social_links {
-	margin-top: 60px
+	margin-top: 40px
 }
 
 #social_links li {
@@ -273,7 +347,98 @@ a.header {
 	background-image: url(../images/facebook.png) 
 }
 
+#social_links li a.flickr {
+	background-image: url(../images/flickr.png)
+}
+
+#social_links li a.linkedin {
+	background-image: url(../images/linkedin.png)
+}
+
 #social_links li a.twitter {
 	background-image: url(../images/twitter.png) 
 }
 
+#social_links li a.yahoo {
+	background-image: url(../images/yahoo.png)
+}
+
+#social_links li a.youtube {
+	background-image: url(../images/youtube.png)
+}
+
+#gallery {
+	margin-top: 40px
+}
+
+#gallery li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 0 20px 20px 0;
+	padding: 0;
+	background: none;
+}
+
+#gallery li a {
+	display: block;
+}
+
+#gallery li a img  { 
+	background: #a1a199; 
+	padding: 4px; 
+	border: 1px solid #d0d0cb; 
+}
+
+#gallery li.no_margin_right { 
+	margin-right: 0; 
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 365px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 163px; 
+	padding: 5px; 
+	color: #000; 
+	border: 1px solid #adada3;  
+	background: #e9e9e9;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label { 
+	display: block;
+	font-size: 11px; 
+}
+
+#contact_form form textarea { 
+	width: 353px; 
+	height: 110px; 
+	padding: 5px; 
+	color: #000;
+	border: 1px solid #adada3;  
+	background: #e9e9e9;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn { 
+	font-size: 12px;
+	color: #000; 
+	border: 1px solid #adada3;  
+	background: #e9e9e9; 
+	padding: 5px 14px; 
+	margin: 10px 0px;
+}
