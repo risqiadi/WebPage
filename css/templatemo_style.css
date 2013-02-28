@@ -7,11 +7,8 @@ body{
 	padding: 0;
 	color: #555;
 	font-size: 12px;
-	line-height: 1.6em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: #c7c8c1;
-	background-image:  url(../images/templatemo_background.png);
-	background-repeat: repeat
+	background-color: #03C;
 }
 
 a, a:link, a:visited { 
